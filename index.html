@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Your CSS Linked Below-->
     <link rel="stylesheet" href="css/index.css">
+    
   </head>
   <body>
     
@@ -17,10 +18,23 @@
     
     
     
-    
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAO9KlZ9_E1m6ShPhmemY2F0BNOu3nvdyQ",
+    authDomain: "studio-client-projecct.firebaseapp.com",
+    databaseURL: "https://studio-client-projecct.firebaseio.com",
+    projectId: "studio-client-projecct",
+    storageBucket: "studio-client-projecct.appspot.com",
+    messagingSenderId: "919345114099"
+  };
+  firebase.initializeApp(config);
+</script>
     <!-- jQuery Linked Below-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Your Javascript Linked Below-->
     <script src="js/index.js" type="module" defer></script> 
+    <script src="js/question.js" type="module" defer></script>
   </body>
 </html>
