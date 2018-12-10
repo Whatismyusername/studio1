@@ -1,1 +1,38 @@
 /* Write your CSS here */
+html{
+    font-family: 'Josefin Sans', sans-serif; 
+    text-align: center;
+}
+.question{
+    font-size: 4vw;
+}
+.username{
+    font-size: 3vw;
+}
+.questionSection{
+    background-image: linear-gradient(-90deg, #ccccff, white);
+    border: 1px solid black;
+    margin: 2vw; 
+}
+body{
+    
+    
+}
+.promptInputs{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 4vw;
+    height: 18.75vw;
+    border-radius: 100px;
+    /* background-color:black;  */
+    background-image: url("https://wallpapercave.com/wp/wp1949787.jpg");
+    background-size:100% 100%;
+    color:black; 
+}
+input, #questionBtn {
+    border: 1px solid black;
+    font-size:2vw;
+    font-family: 'Josefin Sans', sans-serif; 
+    background-color:black;
+    color:white;
+
+}
